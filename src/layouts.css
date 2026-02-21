@@ -132,6 +132,15 @@
     opacity: 0.3;
 }
 
+.hero-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
 /* Grids */
 .about-grid {
     display: grid;

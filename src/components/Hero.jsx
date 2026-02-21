@@ -31,9 +31,9 @@ const Hero = () => {
 
                 <div className="hero-image-wrapper">
                     <div className="hero-shape"></div>
-                    {/* Placeholder for actual image */}
+                    {/* Display actual image (make sure to save the uploaded image as public/profile.jpeg) */}
                     <div className="hero-avatar">
-                        <span className="avatar-text">MR</span>
+                        <img src="/profile.jpeg" alt="Muhammed Raihan" />
                     </div>
                 </div>
             </div>
