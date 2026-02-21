@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
 import Section from './Section';
+import profileImg from '../images/photo_2026-02-21_17-58-12.jpg';
 
 const Hero = () => {
     return (
@@ -31,9 +32,9 @@ const Hero = () => {
 
                 <div className="hero-image-wrapper">
                     <div className="hero-shape"></div>
-                    {/* Display actual image (make sure to save the uploaded image as public/profile.jpeg) */}
+                    {/* Display actual image from src/images */}
                     <div className="hero-avatar">
-                        <img src="/profile.jpeg" alt="Muhammed Raihan" />
+                        <img src={profileImg} alt="Muhammed Raihan" />
                     </div>
                 </div>
             </div>
