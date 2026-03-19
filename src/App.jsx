@@ -19,7 +19,9 @@ function App() {
       <Navbar />
       <Hero />
 
-      {/* ── Easter Egg Section ── */}
+      <About />
+
+      {/* ── Easter Egg Section — above Skills & Expertise ── */}
       <section
         style={{
           textAlign: 'center',
@@ -44,7 +46,6 @@ function App() {
         <EscapingButton />
       </section>
 
-      <About />
       <Skills />
       <Projects />
       <Services />
